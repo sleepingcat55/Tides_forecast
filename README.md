@@ -9,6 +9,11 @@ forget these data and make the software faster
 
 ![Tides forecast 2](https://github.com/user-attachments/assets/9b6dc49f-86ac-48ce-82c4-1219556af174)
 
+# How to use
+
+- Be sure the next gems are installed or install them : open-uri, nokogiri, flammarion, colorized, sqlite3
+- write in a Terminal : sudo chmod 755 Tides_forecast.rb
+- launch the software with the Terminal : ./Tides_forecast.rb
 
 # Credits
 
