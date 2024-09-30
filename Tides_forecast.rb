@@ -46,8 +46,8 @@ f = Flammarion::Engraving.new
 f.title("Tides forecast")
 f.puts "************************************ Choose what you want to do ************************************".colorize(:cyan)
 f.puts "Note : scraping (https://www.tide-forecast.com/) entirely for creating new database takes between 5-10 minutes, so be patient".colorize(:coral)
-use_bdd = f.checkbox "Use datas stored in the BDD                    ".colorize(:green)
-new_bdd = f.checkbox "Create a new BDD (countries and ports list)    ".colorize(:green)
+use_bdd = f.checkbox "Use datas stored in the database                    ".colorize(:green)
+new_bdd = f.checkbox "Create a new database (countries and ports list)    ".colorize(:green)
 f.button("I made my choice".light_red){
   if(use_bdd.checked?)
     tempo_path_link, total_port_str = read_all(db)
