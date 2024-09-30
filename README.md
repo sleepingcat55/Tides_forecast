@@ -5,7 +5,9 @@ ask you the tides forecast you want for. Then, it scrape again the website to ge
 Scraping all the website for countries/ports names takes 5-10 minutes, so I add a database to don't
 forget these data and make the software faster
 
+![Tides forecast 1](https://github.com/user-attachments/assets/cb71caba-b2a6-4b56-a471-8e5cca6aa6b6)
 
+![Tides forecast 2](https://github.com/user-attachments/assets/9b6dc49f-86ac-48ce-82c4-1219556af174)
 
 
 # Credits
